@@ -10,8 +10,14 @@
 * 	Template Style
 *
 * ======================================================= */
+
+.click-here {
+  background: rgba(142, 17, 110, 0.8);
+
+}
+
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Helvetica","Work Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -64,7 +70,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Helvetica", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -79,25 +85,41 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #F14E95;
 }
 
+/*change here Megha*/
 ::selection {
   color: #fff;
-  background: #F14E95;
+  background: #8E116E;
 }
 
 .fh5co-nav {
   position: absolute;
   top: 0;
   margin: 0;
-  padding: 0;
+  padding: 20px 20px;
   width: 100%;
   padding: 40px 0;
   z-index: 1001;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav {
-    padding: 20px 0;
+    padding: 20px 20px;
   }
 }
+
+/*@media (min-width: 992px) {*/
+/*  .container {*/
+/*    width: 100%;*/
+/*    margin-left: 25px;*/
+/*    margin-right: 25px;*/
+/*  }*/
+/*}*/
+/*@media (min-width: 1200px) {*/
+/*  .container {*/
+/*    width: 100%;*/
+/*    margin-left: 25px;*/
+/*    margin-right: 25px;*/
+/*  }*/
+/*}*/
 .fh5co-nav #fh5co-logo {
   font-size: 40px;
   margin: 0;
@@ -321,6 +343,8 @@ h1, h2, h3, h4, h5, h6, figure {
     height: 600px;
   }
 }
+
+
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
   height: 900px;
@@ -438,7 +462,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-event .event-wrap .event-col {
-  width: 50%;
+  width: 33%;
   float: left;
   margin-bottom: 30px;
 }
@@ -845,6 +869,7 @@ form label {
   padding: 0;
   color: white;
 }
+/* for Megha & Swarnim*/
 #fh5co-header .display-tc h1,
 .fh5co-cover .display-tc h1 {
   margin-bottom: 0px;
@@ -855,13 +880,13 @@ form label {
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 40px;
+    font-size: 40%;
   }
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 #fh5co-header .display-tc h2,
@@ -873,14 +898,15 @@ form label {
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h2,
   .fh5co-cover .display-tc h2 {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
+/*Megha*/
 #fh5co-header .display-tc .btn,
 .fh5co-cover .display-tc .btn {
   padding: 15px 20px;
   background: #fff !important;
-  color: #F14E95;
+  color: #8E116E;
   border: none !important;
   font-size: 14px;
   text-transform: uppercase;
@@ -898,18 +924,20 @@ form label {
 .simply-countdown {
   /* The countdown */
   margin-bottom: 2em;
+  line-height: 1.2;
 }
 
+/*Megha*/
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 100px;
-  height: 100px;
-  background: rgba(241, 78, 149, 0.8);
+  width: 80px;
+  height: 80px;
+  background: rgba(142, 17, 110, 0.8);
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
+  -ms-border-radius: 40%;
   border-radius: 50%;
   position: relative;
   animation: pulse 1s ease infinite;
@@ -930,8 +958,8 @@ form label {
   /* countdown block inner div */
   display: table-cell;
   vertical-align: middle;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 }
 
 .simply-countdown > .simply-section .simply-amount,
@@ -942,7 +970,7 @@ form label {
 }
 
 .simply-countdown > .simply-section .simply-amount {
-  font-size: 30px;
+  font-size: 25px;
   /* amounts */
 }
 
@@ -1150,12 +1178,13 @@ form label {
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
 }
+/*Megha*/
 .fh5co-heading h2 {
   font-size: 60px;
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #F14E95;
+  color: #8E116E;
   font-family: "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
@@ -1163,7 +1192,6 @@ form label {
     font-size: 40px;
   }
 }
-
 .fh5co-heading p {
   font-size: 18px;
   line-height: 1.5;
@@ -1179,29 +1207,129 @@ form label {
 
 /* ====================================== family-invite = second page [Swarnim]  ====================================== */
 
+/*768 - 1080*/
+/*Mobile 640 - 896*/
+/*tablet - 962 - 800*/
+/*Megha*/
 .family-invite h2 {
-  font-size: 60px;
+  max-width: 768px;
+  font-size: 170%;
   margin-bottom: 8px;
   line-height: 1;
   font-weight: bold;
-  color: #F14E95;
+  color: #8E116E;
   font-family: "Sacramento", Arial, serif;
 }
 
-.family-invite h1 {
-  font-size: 50px;
-  margin-bottom: 8px;
-  line-height: 1;
-  font-weight: bold;
-  font-family: "Sacramento", Arial, serif;
+@media only screen and (min-width: 768px) {
+  .family-invite h2 {
+    font-size: 65px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: inherit;
+    line-height: 1;
+    font-weight: bold;
+    color: #8E116E;
+    font-family: "Sacramento", Arial, serif;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .family-invite h2 {
+    max-width: 768px;
+    font-size: 170%;
+    margin-bottom: 8px;
+    text-align: center;
+    line-height: 1;
+    font-weight: bold;
+    color: #8E116E;
+    font-family: "Sacramento", Arial, serif;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .family-invite h1 {
+    max-width: 768px;
+    font-size: 110%;
+    text-align: center;
+    margin-bottom: 8px;
+    line-height: 1;
+    font-family: "Sacramento", Arial, serif;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .family-invite h4 {
+    max-width: 768px;
+    font-size: 110%;
+    margin-bottom: 8px;
+    text-align: center;
+    margin-top: 8px;
+    line-height: 1;
+    font-weight: bold;
+    font-family: "Sacramento", Arial, serif;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .family-invite h3 {
+    max-width: 768px;
+    font-size: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 1;
+    font-family: "Helvetica", Arial, serif;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .family-invite h1 {
+    font-size: 45px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 1;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Sacramento", Arial, serif;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .family-invite h3 {
+    font-size: 23px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 1;
+    font-family: "Helvetica", Arial, serif;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .family-invite h4 {
+    font-size: 45px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    line-height: 1;
+    font-family: "Sacramento", Arial, serif;
+  }
 }
 
 .family-invite p {
-  font-size: 40px;
+  font-size: 768px;
+  font-size: 50%;
   color: #828282;
   font-family: "Sacramento", Arial, serif;
 }
 
+
+
+.row-bottom-padded-md {
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
 /* ====================================== Testimonials ====================================== */
 
 #fh5co-testimonial .wrap-testimony {
@@ -1649,7 +1777,7 @@ form label {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Helvetica", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
