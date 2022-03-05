@@ -16,6 +16,14 @@
 
 }
 
+#timelog {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Helvetica","Work Sans", sans-serif;
   font-weight: 400;
