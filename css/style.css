@@ -1259,7 +1259,7 @@ form label {
 @media only screen and (max-width: 768px) {
   .family-invite h2 {
     max-width: 768px;
-    font-size: 170%;
+    font-size: 200%;
     margin-bottom: 8px;
     text-align: center;
     line-height: 1;
@@ -1267,23 +1267,18 @@ form label {
     color: #8E116E;
     font-family: "Sacramento", Arial, serif;
   }
-}
-
-@media only screen and (max-width: 768px) {
   .family-invite h1 {
     max-width: 768px;
-    font-size: 110%;
+    font-size: 150%;
     text-align: center;
     margin-bottom: 8px;
+    margin-top: 10px;
     line-height: 1;
     font-family: "Sacramento", Arial, serif;
   }
-}
-
-@media only screen and (max-width: 768px) {
   .family-invite h4 {
     max-width: 768px;
-    font-size: 110%;
+    font-size: 150%;
     margin-bottom: 8px;
     text-align: center;
     margin-top: 8px;
@@ -1291,12 +1286,9 @@ form label {
     font-weight: bold;
     font-family: "Sacramento", Arial, serif;
   }
-}
-
-@media only screen and (max-width: 768px) {
   .family-invite h3 {
     max-width: 768px;
-    font-size: 50%;
+    font-size: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;

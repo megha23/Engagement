@@ -174,7 +174,7 @@
 			</nav>
 
 
-			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/Us-1.JPG);" data-stellar-background-ratio="0.5">
+			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/Us-1.JPG); min-height: 100%;" data-stellar-background-ratio="0.5">
 				<div class="overlay"></div>
 				<div class="container">
 					<div class="row">
@@ -209,30 +209,12 @@
 
 			<!--  Invite   -->
 			<div id="formal-invite"
-				 style="background-image:url(images/rings-bkg-1.png); background-repeat: no-repeat; background-position: center; background-size: cover;">
+				 style="background-image:url(images/rings-bkg-1.png); background-repeat: no-repeat; background-position: center; background-size: cover; min-height: 100%;">
 
 				<div class="container" >
-					<!-- <div class="couple-wrap animate-box">
-						<div class="couple-half">
-							<div class="groom">
-								<img src="images/groom.jpg" alt="groom" class="img-responsive">
-							</div>
-							<div class="desc-groom">
-								<h3>Swarnim Singhal</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
-							</div> -->
-						<!-- </div>
-						<p class="heart text-center"><i class="icon-heart2"></i></p>
-						<div class="couple-half">
-							<div class="bride">
-								<img src="images/bride.jpg" alt="bride" class="img-responsive">
-							</div> -->
-							<!-- <div class="desc-bride">
-								<h3>Megha Goyal</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
-							</div> -->
-						<!-- </div>
-					</div> -->
+          <br>
+          <br>
+					</div>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center family-invite animate-box">
 <!--							<h1 style="color:dimgrey;">He popped the question…She said YES!</h1>-->
@@ -249,18 +231,21 @@
 							<h2><b><i>Megha</i></b></h2>
 							<h3>with</h3>
 							<h2><b><i>Swarnim</i></b></h2>
-							<h1>(S/o Mrs. Nishi & Mr. Anup Singhal)</h1>
+							<h1>(S/o  Mrs. Nishi & Mr. Anup Singhal)</h1>
 							<br>
-							<br>
+
 							<h3>Followed by Lunch</h3>
 							<h3>Please find the event details below</h3>
+              <br>
+              <br>
+              <br>
 						</div>
 					</div>
 				</div>
 		  </div>
 
 			<section id="event_details">
-			<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/csoi.jpg);">
+			<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/csoi.jpg); min-height: 100%;">
 				<div class="overlay"></div>
 				<div class="container">
 					<div class="row">
@@ -306,7 +291,7 @@
 											</div>
                         <div class="event-col">
                           <i class="icon-map"></i>
-                          <span><a href="https://goo.gl/maps/vcftgHdUHDTADzHAA" target="_blank" style="color: white">Show on Map</a>
+                          <span><a href="https://goo.gl/maps/vcftgHdUHDTADzHAA" target="_blank" style="color: white">Show on Google Maps</a>
 												</span>
                         </div>
 											<div class="event-col">
@@ -403,11 +388,11 @@
 				<div class="row row-bottom-padded-md">
 					<div class="col-md-12" style="padding-left: 0;">
 						<ul id="fh5co-gallery-list">
-							<li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/Mothers.jpeg); background-position:50% 50%">
-							<a href="images/Mothers.jpeg">
+							<li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/brides-parents.jpeg); background-position:25% 25%">
+							<a href="images/brides-parents.jpeg">
 								<div class="case-studies-summary">
 									<!-- <span>Bride's Parents</span> -->
-									<h2>The Mothers</h2>
+									<h2>Bride's parents</h2>
 								</div>
 							</a>
 							</li>
@@ -437,8 +422,8 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-fourth animate-box" data-animate-effect="fadeIn" style="background-image: url(images/Groom.png);  ">
-							<a href="images/Groom.png" class="color-4">
+						<li class="one-fourth animate-box" data-animate-effect="fadeIn" style="background-image: url(images/Groom.jpeg);  ">
+							<a href="images/Groom.jpeg" class="color-4">
 								<div class="case-studies-summary">
                   <h2><b>The Groom</b></h2>
 									<!-- <h2>Swarnim Singhal</h2> -->
@@ -820,6 +805,10 @@
     //
     // // Try automatically playing our audio via script. This would normally trigger an error.
     // document.getElementById('click-here').play();
+
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
 	</script>
 
 	</body>
